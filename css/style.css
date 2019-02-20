@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1100px) {
+    body {
+        background: #555;
+    }
+}
+#navbar {
+    width: 100%;
+    position: fixed;
+    top : 0px;
+    background: #aaa;
+    height: 100px;
+    z-index: 1;
+}
+
+nav>a {
+    position: relative;
+    text-decoration: none;
+    background: skyblue;
+    float: right;
+    right: 50px;
+    margin-left: 10px;
+    top: 50px;
+    padding: 3px;
+    
+}
+nav>a:visited {
+    text-decoration: none;
+    
+}
+
+#welcome-section {
+    position: relative;
+    top: 120px;
+    height: 100vh;
+}
+
